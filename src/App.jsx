@@ -115,10 +115,11 @@ export class App extends Component {
   render(){
     return (
       <div>
-        <Notification account={this.state.account}/>
+
         <MessageList messages={this.state.messages}
                      currentUser={this.state.currentUser}
                      />
+        <Notification account={this.state.account}/>
         <ChatBar currentUser={this.state.currentUser}
                  handleKeyPress={this.handleKeyPress}/>
       </div>

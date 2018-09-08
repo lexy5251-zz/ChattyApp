@@ -46,7 +46,6 @@ wss.on('connection', (client) => {
   });
 
 function broadcastBack(message) {
-  console.log(`Received: ${message}`);
   let received = JSON.parse(message);
   received["newId"] = newId;
   received["number"] = wss.clients.size;

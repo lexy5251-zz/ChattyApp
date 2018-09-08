@@ -8,10 +8,11 @@ class MessageList extends Component {
     });
     return (
       <main className="messages">
-      <div>{messageItems}</div>
-      <div className="notification">
+       <div className="notification">
       <span className="notification-content"></span>
       </div>
+      <div>{messageItems}</div>
+
       </main>
     )
   }
