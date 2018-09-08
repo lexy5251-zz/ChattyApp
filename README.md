@@ -35,7 +35,7 @@ An app like a chatroom implemented React and Websocket.
 
 ### Screenshots
 
-You can store static files like images, fonts, etc in the `build` folder.
-
-For example, if you copy a file called my_image.png into the build folder you can access it using `http://localhost:3000/build/my_image.png`.
-
+!["first"](https://github.com/lexy5251/ChattyApp/blob/master/docs/first.png?raw=true)
+!["two users"](https://github.com/lexy5251/ChattyApp/blob/master/docs/two%20users.png?raw=true)
+!["third"](https://github.com/lexy5251/ChattyApp/blob/master/docs/third.png?raw=true)
+!["three users"](https://github.com/lexy5251/ChattyApp/blob/master/docs/three%20users.png?raw=true)
